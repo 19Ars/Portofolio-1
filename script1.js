@@ -24,14 +24,17 @@ let fish = document.getElementById("fish");
 
 let moonlight = document.getElementById("moonlight");
 let whale = document.getElementById("whale");
+let bubbles = document.getElementById("bubbles");
+
 
 
 window.addEventListener("scroll", () => {
     let value = window.scrollY;
-    moon.style.top = value * .9 + "px";
-    text.style.top = 99 + value * -0.2 + '%';
+    moon.style.top = value * .5 + "px";
+    text.style.top = 300 + value * 0.2 + 'px';
     fish.style.left = -1000 + value * 3.5 + "px";
 
-    moonlight.style.top = value * .3 + "px";
-    whale.style.left = value * .6 + "px";
+    moonlight.style.top = -200 + value * .3 + "px";
+    bubbles.style.top = 100 + value * -0.3 + "px";
+    whale.style.left = -1000 + value * 1.5 + "px";
 })

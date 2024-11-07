@@ -35,21 +35,31 @@
             </div>
         </div>
         <section id="parallax-home" class="parallax-home">
-            <img src="img/Background.png" alt="" id="">
-            <img src="img/Moon.png" alt="" id="moon">
-            <img src="img/Palace.png" alt="" id="">
-            <img src="img/Fish.png" alt="" id="fish">
-            <!-- <div id="hero" class="main-container">
-                <div class="hero-left"> -->
-            <h3 class="pre-title" id="text">Nama Saya Adalah</h3>
-            <!-- <h1 class="hero-name">Andi <span>Purnomo</span></h1>
+            <img src="img/Background.png" alt="" id="bg" class="back">
+            <img src="img/Moon.png" alt="" id="moon" class="back">
+            <img src="img/Palace.png" alt="" id="palace" class="mid">
+            <img src="img/Fish.png" alt="" id="fish" class="front">
+            <h3 class="pre-title" id="text">My Portofolio</h3>
+            <img src="img/Hill.png" alt="" id="hill" class="front">
+        </section>
+        <section class="about" id="about">
+            <div id="hero" class="main-container home">
+                <div class="hero-left">
+                    <h3 class="pre-title" id="text">Nama Saya Adalah</h3>
+                    <h1 class="hero-name">Andi <span>Purnomo</span></h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quod quasi accusamus maiores cupiditate saepe blanditiis et explicabo necessitatibus dolorum odio earum cumque suscipit aspernatur, quaerat, distinctio magnam eveniet ab.</p>
                 </div>
                 <div class="hero-right">
                     <img src="Grizz.png" alt="Bear Grizz" srcset="">
                 </div>
-            </div> -->
-            <img src="img/Hill.png" alt="" id="">
+            </div>
+            <img src="img/Sea.png" alt="" id="" class="back">
+            <img src="img/Cave.png" alt="" id="" class="mid">
+            <img src="img/Bubbles.png" alt="" id="bubbles" class="mid">
+            <img src="img/Moon.png" alt="" id="moonlight" class="back">
+            <img src="img/Whale.png" alt="" id="whale" class="mid">
+            <img src="img/corals.png" alt="" id="" class="front">
+
         </section>
     </div>
     <!--End Header -->
@@ -88,74 +98,47 @@
         </div>
     </section>
     <!-- End Layanan -->
-    <!-- Portofolio -->
-    <section id="portofolio">
-        <div class="portofolios main-container">
+    <!-- Projects -->
+    <section id="projects swiper-container">
+        <div class="swiper main-container">
             <h3 class="pre-title">Hasil Karya</h3>
-            <h4 class="section-title">Portofolio Terbaru</h4>
-            <div class="grid-3">
-                <!-- Portofolio 1 -->
-                <div class="portofolio">
-                    <div class="portofolio-cover">
-                        <img src="" alt="Portofolio 1">
-                    </div>
-                    <div class="porttofolio-info">
-                        <div class="portofolio-title">
-                            <h4>Front End</h4>
-                            <a href="/" class="portofolio-link">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
-                            </a>
-                        </div>
-                        <div class="portofolio-text">
-                            <div>HTML</div>
-                            <div>CSS</div>
-                            <div>Javascript</div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium blanditiis in voluptates dolores cum ipsam ratione porro expedita repellat.</p>
+            <h4 class="section-title">Projects dan Mini Projects</h4>
+            <div class="grid-3 swiper-wrapper">
+                <div class="swiper-slide swiper-slide--one">
+                    <div class="slide-content">
+                        <h3>Mademoiselle</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, fuga. Atque deleniti officiis magni distinctio non ad fugiat eligendi ex dolorum nisi sapiente nihil, provident nemo rerum id dolorem iste.</p>
                     </div>
                 </div>
-                <!-- Portofolio 2 -->
-                <div class="portofolio">
-                    <div class="portofolio-cover">
-                        <img src="" alt="Portofolio 1">
-                    </div>
-                    <div class="porttofolio-info">
-                        <div class="portofolio-title">
-                            <h4>Back End</h4>
-                            <a href="/" class="portofolio-link">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
-                            </a>
-                        </div>
-                        <div class="portofolio-text">
-                            <div>Laravel</div>
-                            <div>Flask</div>
-                            <div>PHP</div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium blanditiis in voluptates dolores cum ipsam ratione porro expedita repellat.</p>
+                <div class="swiper-slide swiper-slide--two">
+                    <span>bestseller</span>
+                    <div class="slide-content">
+                        <h3>Mademoiselle</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, fuga. Atque deleniti officiis magni distinctio non ad fugiat eligendi ex dolorum nisi sapiente nihil, provident nemo rerum id dolorem iste.</p>
                     </div>
                 </div>
-                <!-- Portofolio 3 -->
-                <div class="portofolio">
-                    <div class="portofolio-cover">
-                        <img src="" alt="Portofolio 1">
-                    </div>
-                    <div class="porttofolio-info">
-                        <div class="portofolio-title">
-                            <h4>Database</h4>
-                            <a href="/" class="portofolio-link">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
-                            </a>
-                        </div>
-                        <div class="portofolio-text">
-                            <div>MySQL</div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium blanditiis in voluptates dolores cum ipsam ratione porro expedita repellat.</p>
+                <div class="swiper-slide swiper-slide--three">
+                    <span>bestseller</span>
+                </div>
+                <div class="swiper-slide swiper-slide--four">
+                    <span>bestseller</span>
+                </div>
+                <div class="swiper-slide swiper-slide--five">
+                    <span>bestseller</span>
+                </div>
+                <div class="swiper-slide swiper-slide--six">
+                    <span>bestseller</span>
+                    <div class="slide-content">
+                        <h3>Woman in the dark</h3>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="swiper-pagination"></div>
     </section>
-    <!-- End Portofolio -->
+    <div class="circle"></div>
+
+    <!-- End Projects -->
 
     <!-- Skill & Pendidikan -->
     <section id="skill">
